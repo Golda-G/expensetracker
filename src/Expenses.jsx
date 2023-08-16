@@ -147,7 +147,7 @@ const Expenses = () => {
           }}
         >
           <h4 >History</h4>{" "}
-          <h4 >Balance: ${totalTransactions}</h4>
+          <h4 >Balance: ${totalTransactions?.toFixed(2)}</h4>
         </div>
 
         {transactions?.length ? (
