@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  margin: 0;
+  background-color: rgb(249, 237, 231);
+  overflow-x: hidden;
+}
+
+h1{
+  margin-top: 0px;
+  text-align: center;
+  border-bottom: 10px black dashed;
+}
+.inputs input {
+  width: 50%;
+  height: 40px;
+  outline: none;
+  
+  padding: 0 17px;
+  font-size: 19px;
+  border: 1px solid #999;
+  
+}
+.inputs{
+  
+  margin-left: 360px;
+}
+.inputs input::placeholder {
+  color: #999999;
+  font-size:small ;
+}
+
+.inputs input:focus {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13);
+  background-color: white;
+}
+
+.inputs input:focus::placeholder {
+  color: #dae0fb;
+}
+
+.inputs button {
+  display: flex;
+  margin-left: 120px;
+  justify-content: center; 
+  width: 25%;
+  padding-top: 3px;
+  height: 36px;
+  border-radius: 3px;
+  color:white;
+  cursor: pointer;
+  font-size: 17px;
+  margin-top: 20px;
+  background: #080808;
+}
+
+.inputs label{
+  font-size: x-small;
+  font-weight: lighter;
+}
+
+h4{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: larger;
+  font-weight: bolder;
+  text-decoration: underline;
+  text-decoration-color: #080808;
+}
+.details{
+  font-size: large;
+  text-transform: capitalize;
+  margin-left: 10px;
+}
+
+
+ @media (max-width: 576px) { 
+  
+   .inputs{
+    margin:0%;
+   }
+
+  .inputs input {
+    width: auto;
+   
+  }
+
+  .inputs label{
+    font-size:xx-small;
+    font-weight: bold;
+  }
+
+  .inputs button {
+    width: 250px;
+    padding: 2px 2px;
+    height: 30px;
+    font-size: 16px;
+    margin-top: 17px;
+    margin-left: 65px;
+
+  }
+  h4{
+    font-weight: lighter;
+  
+  }
+
+  
+  
+ } 
