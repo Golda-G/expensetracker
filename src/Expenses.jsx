@@ -166,8 +166,8 @@ const Expenses = () => {
      
       
         <Col style={{ boxSizing:'border-box', marginTop:'37px', }} xs={12} sm={6} md={4} >
-        <h4 style={{ textAlign:'center', borderTop: '30px solid green', marginTop:'45px'}}>Total Income: ${totalIncome.toFixed(2)}</h4>{""}
-        <h4 style={{ textAlign:'center', borderTop: '30px solid red', marginTop:'45px'}}>Total Expenses: ${(totalExpenses *-1).toFixed(2)}</h4>{""}
+        <h4 style={{ textAlign:'center', borderTop: '30px solid green', marginTop:'45px'}}>Total Income: ${totalIncome}</h4>{""}
+        <h4 style={{ textAlign:'center', borderTop: '30px solid red', marginTop:'45px'}}>Total Expenses: ${totalExpenses *-1}</h4>{""}
         </Col>
       </Row>
       
